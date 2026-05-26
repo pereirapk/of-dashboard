@@ -1,0 +1,35 @@
+{
+  "bills": [
+    {
+      "billId": "20240115",
+      "billMinimumAmount": { "amount": "100.0000", "currency": "BRL" },
+      "billTotalAmount": { "amount": "1000.0000", "currency": "BRL" },
+      "dueDate": "2024-01-15",
+      "isInstalment": true,
+      "payments": [
+        {
+          "amount": "500.0000",
+          "currency": "BRL",
+          "paymentDate": "2024-01-14",
+          "paymentMode": "BOLETO_BANCARIO",
+          "valueType": "VALOR_PAGAMENTO_FATURA_REALIZADO"
+        },
+        {
+          "amount": "500.0000",
+          "currency": "BRL",
+          "paymentDate": "2024-01-10",
+          "paymentMode": "PIX",
+          "valueType": "VALOR_PAGAMENTO_FATURA_REALIZADO"
+        }
+      ]
+    },
+    {
+      "billId": "20231215",
+      "billMinimumAmount": { "amount": "50.0000", "currency": "BRL" },
+      "billTotalAmount": { "amount": "500.0000", "currency": "BRL" },
+      "dueDate": "2023-12-15",
+      "isInstalment": false,
+      "payments": []
+    }
+  ]
+}

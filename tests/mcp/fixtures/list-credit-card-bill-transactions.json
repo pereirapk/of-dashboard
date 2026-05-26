@@ -1,0 +1,48 @@
+{
+  "transactions": [
+    {
+      "amount": { "amount": "100.0000", "currency": "BRL" },
+      "billId": "20240115",
+      "billPostDate": "2024-01-10",
+      "brazilianAmount": { "amount": "100.0000", "currency": "BRL" },
+      "creditDebitType": "DEBITO",
+      "identificationNumber": "1234",
+      "payeeMCC": 5411,
+      "paymentType": "A_VISTA",
+      "transactionDateTime": "2024-01-09T15:00:00.000Z",
+      "transactionId": "fixture-cc-txn-1",
+      "transactionName": "FIXTURE GROCERY",
+      "transactionType": "PAGAMENTO"
+    },
+    {
+      "amount": { "amount": "500.0000", "currency": "BRL" },
+      "billId": "20240115",
+      "billPostDate": "2024-01-05",
+      "brazilianAmount": { "amount": "500.0000", "currency": "BRL" },
+      "chargeIdentificator": 2,
+      "chargeNumber": 3,
+      "creditDebitType": "DEBITO",
+      "identificationNumber": "1234",
+      "payeeMCC": 5722,
+      "paymentType": "A_PRAZO",
+      "transactionDateTime": "2023-11-15T10:00:00.000Z",
+      "transactionId": "fixture-cc-txn-2",
+      "transactionName": "FIXTURE ELECTRONICS 03/05",
+      "transactionType": "PAGAMENTO"
+    },
+    {
+      "amount": { "amount": "25.0000", "currency": "BRL" },
+      "billId": "20240115",
+      "billPostDate": "2024-01-08",
+      "brazilianAmount": { "amount": "25.0000", "currency": "BRL" },
+      "creditDebitType": "CREDITO",
+      "identificationNumber": "1234",
+      "otherCreditsType": "CREDITO_ROTATIVO",
+      "transactionDateTime": "2024-01-07T03:00:00.000Z",
+      "transactionId": "fixture-cc-txn-3",
+      "transactionName": "FIXTURE REFUND",
+      "transactionType": "OUTROS",
+      "transactionalAdditionalInfo": "OUTROS"
+    }
+  ]
+}

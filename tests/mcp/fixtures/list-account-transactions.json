@@ -1,0 +1,33 @@
+{
+  "transactions": [
+    {
+      "completedAuthorisedPaymentType": "TRANSACAO_EFETIVADA",
+      "creditDebitType": "DEBITO",
+      "partieCnpjCpf": "00000000000000",
+      "transactionAmount": { "amount": "100.00", "currency": "BRL" },
+      "transactionDateTime": "2024-01-15T12:00:00.000Z",
+      "transactionId": "fixture-txn-uuid-1",
+      "transactionName": "Pagamento de Pix QR Code TEST MERCHANT",
+      "type": "PIX"
+    },
+    {
+      "completedAuthorisedPaymentType": "TRANSACAO_EFETIVADA",
+      "creditDebitType": "CREDITO",
+      "partieCnpjCpf": "00000000000",
+      "transactionAmount": { "amount": "2500.00", "currency": "BRL" },
+      "transactionDateTime": "2024-01-10T09:00:00.000Z",
+      "transactionId": "fixture-txn-uuid-2",
+      "transactionName": "Pix recebido Test Sender",
+      "type": "PIX"
+    },
+    {
+      "completedAuthorisedPaymentType": "TRANSACAO_EFETIVADA",
+      "creditDebitType": "DEBITO",
+      "transactionAmount": { "amount": "21.90", "currency": "BRL" },
+      "transactionDateTime": "2024-01-05T03:00:00.000Z",
+      "transactionId": "fixture-txn-uuid-3",
+      "transactionName": "Pagamento de seguro SEGURO CARTAO",
+      "type": "OPERACAO_CREDITO"
+    }
+  ]
+}

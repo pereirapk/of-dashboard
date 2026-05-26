@@ -1,0 +1,12 @@
+{
+  "credit_cards": [
+    {
+      "brandName": "ITAU",
+      "companyCnpj": "60872504000123",
+      "creditCardAccountId": "fixture-card-uuid-1",
+      "creditCardNetwork": "MASTERCARD",
+      "name": "FIXTURE CARD BLACK",
+      "productType": "BLACK"
+    }
+  ]
+}

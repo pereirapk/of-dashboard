@@ -1,0 +1,24 @@
+{
+  "accounts": [
+    {
+      "accountId": "fixture-account-uuid-1",
+      "branchCode": "0001",
+      "brandName": "itau",
+      "checkDigit": "0",
+      "companyCnpj": "60701190000104",
+      "compeCode": "341",
+      "number": "00000000",
+      "type": "CONTA_DEPOSITO_A_VISTA"
+    },
+    {
+      "accountId": "fixture-account-uuid-2",
+      "branchCode": "0001",
+      "brandName": "itau",
+      "checkDigit": "0",
+      "companyCnpj": "60701190000104",
+      "compeCode": "341",
+      "number": "00000001",
+      "type": "CONTA_POUPANCA"
+    }
+  ]
+}

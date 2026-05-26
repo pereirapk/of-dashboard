@@ -1,0 +1,17 @@
+{
+  "account": {
+    "branchCode": "0001",
+    "checkDigit": "0",
+    "compeCode": "341",
+    "currency": "BRL",
+    "number": "00000000",
+    "subtype": "INDIVIDUAL",
+    "type": "CONTA_DEPOSITO_A_VISTA"
+  },
+  "balance": {
+    "automaticallyInvestedAmount": { "amount": "100.00", "currency": "BRL" },
+    "availableAmount": { "amount": "2500.00", "currency": "BRL" },
+    "blockedAmount": { "amount": "50.00", "currency": "BRL" },
+    "updateDateTime": "2024-01-15T12:00:00Z"
+  }
+}

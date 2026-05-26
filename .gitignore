@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# MCP discovery raw captures contain real PII; never commit
+scripts/mcp-discovery/captures/*.json
+!scripts/mcp-discovery/captures/.gitkeep
+
+# MCP OAuth state (contains client_secret + tokens)
+scripts/mcp-discovery/.auth-state.json
+
+# .env.example is documentation and SHOULD be committed
+!.env.example
